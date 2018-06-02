@@ -1,0 +1,257 @@
+body {
+  margin: 5px;
+    background-color:  #f2f2f2;
+    border-radius: 30%；
+}
+
+/*-------------------------*/
+/*----------Header---------*/
+/*-------------------------*/
+.header {
+  height: 80px;
+  background-color: #f4d200;
+  position: relative; /* ###########   Robin's Work ###########*/
+}
+
+.header .logo {
+  height: 70px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.title {
+  /* margin-top: 30px; */
+  height: 80px;
+  float: left;
+  margin-left: 5px;
+  line-height: 80px; /* ###########   Robin's Work ###########*/
+}
+
+.usercol {
+  /* float: right;
+  margin-top: 10px; */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+}
+
+.usercol img {
+  height: 30px;
+  border-radius: 50%;
+}
+
+/*-----------------------------*/
+/*----------Navigation---------*/
+/*-----------------------------*/
+.navigation {
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #dbdbdb;
+  /* position: fixed; */
+  min-height: 400px; /* ###########   Robin's Work ###########*/
+  /* overflow: auto; */
+  float: left; /* ###########   Robin's Work ###########*/
+  height:100vh;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+ul li:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+
+li a.active {
+  background-color: grey;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+}
+
+.submenu a {
+  background-color: aqua;
+  margin-left: 20px;
+}
+
+.submenu a:hover {
+  background-color: antiquewhite;
+}
+
+/*-------------------------------*/
+/*----------Main content---------*/
+/*------------------------------*/
+.mainSection {
+  width: 55%;/* ###########   Robin's Work ###########*/
+  /* padding-top: 10px; */
+  /* height: 1000px; */
+    margin: 5%;
+ 
+  /* margin-left: 26%; */
+  float: left; /* ###########   Robin's Work ###########*/
+}
+
+/* ###########   Robin's Work ###########*/
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+/* ###########   Robin's Work ###########*/
+
+.message {
+  float: right;
+  padding: 0;
+  width: 15%;
+  background-color: red;
+  height: 100%;
+  overflow: auto;
+}
+
+.message-wrapper { /* ###########   Robin's Work ###########*/
+  border: 1px solid grey;
+  height: 250px;
+  /* position: relative; */
+  padding: 0px;
+  background-color: white;
+    margin: 20px;
+     box-shadow: 5px 10px #888888;
+}
+
+.message_section{
+   border: 1px solid grey; 
+    height: 400px;
+}
+
+.message_section h4{
+    background-color: lightgrey;
+}
+.colhight {
+  height: 400px;
+}
+
+.message-wrapper h4 { /* ###########   Robin's Work ###########*/
+  /* width: 100%; */
+  background-color: lightgrey;
+  /* position: absolute; */
+  /* height: 20%; */
+  /* text-align: center; */
+}
+
+i {
+  color: #0072c6;
+  margin: 10px;
+}
+
+.message_section {
+    width:20%;
+    float: right;
+    background-color: white;
+}
+
+.message-content li {
+    margin-top: 25px;
+}
+
+footer {
+    height: 30px;
+    background-color: #f4d200;
+    
+}
+footer span {
+    width: 20%;
+    margin-left:40%;
+}
+
+/*-------------------------------------------------------------------------------*/
+/*------------------Login page---------------------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+
+.login_title {
+    text-align: center;
+   margin-top: 10%;
+    margin-bottom:8%;
+}
+.login_section {
+   
+    width: 60%;
+    height: 100vh;
+    margin:auto;
+     
+}
+
+.backgroundimg {
+    height: 100%;
+    width: 130%;
+/*    margin-right: 10%;*/
+}
+
+.login_formimg {
+    height: 10%;
+    width: 50%;
+}
+
+.login_rightcol {
+/*float: right;*/
+width: 55%;
+    margin: auto;
+    
+   
+}
+
+.login_leftcol {
+    
+   float: left;
+    width: 35%;
+    height: 60%;
+/*    margin-right: 10px;*/
+    
+ 
+    
+}
+.login_form_container {
+    width: 100%;
+    margin: auto;
+    border: 1px solid #f4d200;
+    border-radius: 5%;
+}
+
+.login_form {
+    width: 90%;
+    margin: auto
+}
+.login_form_title {
+   padding: 8px;
+    background-color: #f4d200;
+    margin-bottom: 5%;
+}
+
+.loginbutton {
+    color:black;
+    width: 100%;
+    margin-bottom: 8%;
+    margin-top:5%;
+    background-color: #0072c6;
+    border-color: #0072c6;
+}

@@ -1,0 +1,12 @@
+. {
+   position:absolute;
+    bottom:0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.header {
+    height: 150px;
+    position: relative;
+    background-color: #f4d200;}
